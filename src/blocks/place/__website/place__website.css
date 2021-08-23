@@ -1,0 +1,25 @@
+.place__website {
+    list-style-type: none;
+    align-self: end;
+    text-decoration-line: none;
+    color: #FFFFFF;
+    padding-inline-start: 0;
+}
+
+@media screen and (max-width: 740px) {
+    .place__website {
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-bottom: 32px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .place__website {
+        max-width: 288px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

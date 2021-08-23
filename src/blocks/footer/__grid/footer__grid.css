@@ -1,0 +1,13 @@
+.footer__grid {
+    list-style: none;
+    padding-inline-start: 0;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: grid;
+    display: -ms-inline-grid;
+    display: -moz-inline-grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column-gap: 40px;
+    max-width: 928px;
+}
